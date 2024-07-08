@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .logo img {
+    width: 50px;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#services {
+    padding: 20px;
+    text-align: center;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+#contact {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#contact form {
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#comments {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#comment-list {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.comment {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.comment h3 {
+    margin: 0 0 5px;
+}
+
+.comment p {
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+}

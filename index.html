@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friedvoller Seelenzauber</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Friedvoller Seelenzauber Logo">
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Dienste</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <img src="images/background.jpg" alt="Hero Image">
+        <div class="hero-text">
+            <h1>Erleben Sie die Magie von Wellness und Entspannung</h1>
+            <p>Wellness-Massage, energetische Blockaden lösen, craniosakrale Arbeit mit Aromaöl-Duftentspannung.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Unsere Dienste</h2>
+        <div class="service">
+            <h3>Wellness-Massage</h3>
+            <p>Erleben Sie tiefe Entspannung und Regeneration durch unsere speziellen Massagetechniken.</p>
+        </div>
+        <div class="service">
+            <h3>Energetische Blockaden lösen</h3>
+            <p>Befreien Sie sich von energetischen Blockaden und erleben Sie eine neue Leichtigkeit.</p>
+        </div>
+        <div class="service">
+            <h3>Craniosakrale Arbeit</h3>
+            <p>Sanfte Berührungen, die den Fluss der Lebensenergie fördern und Körper und Geist harmonisieren.</p>
+        </div>
+        <div class="service">
+            <h3>Aromaöl-Duftentspannung</h3>
+            <p>Genießen Sie die wohltuenden Düfte unserer speziellen Aromaöle und entspannen Sie sich tief.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Senden</button>
+        </form>
+    </section>
+
+    <section id="comments">
+        <h2>Kommentare</h2>
+        <div id="comment-list">
+            <!-- Kommentare werden hier angezeigt -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Friedvoller Seelenzauber. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
